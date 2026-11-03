@@ -1,0 +1,16 @@
+User-agent: *
+Disallow: /admin
+Disallow: /api/
+Allow: /
+
+# Yapay zekâ arama tarayıcıları da sitenin içeriğini okuyabilir
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://dentx.com.tr/sitemap.xml

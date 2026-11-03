@@ -1,0 +1,9 @@
+{
+  "name": "dentx-com-tr",
+  "private": true,
+  "type": "module",
+  "engines": { "node": "22.x" },
+  "dependencies": {
+    "nodemailer": "6.9.16"
+  }
+}

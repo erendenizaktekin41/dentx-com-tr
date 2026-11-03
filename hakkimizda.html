@@ -239,12 +239,12 @@
 (function(){
   var FAIL="Şu an gönderilemedi. Lütfen kliniği arayın veya info@dentx.com.tr adresine yazın.";
   function wire(id,kind,check,collect,okText){
-    var old=document.getElementById(id); if(!old) return;
-    var f=old.cloneNode(true); old.parentNode.replaceChild(f,old); /* önizleme dinleyicilerini kaldır */
+    var f=document.getElementById(id); if(!f) return;
     var hp=document.createElement("input"); hp.type="text"; hp.name="website"; hp.tabIndex=-1; hp.autocomplete="off"; hp.setAttribute("aria-hidden","true");
     hp.style.cssText="position:absolute;left:-9999px;width:1px;height:1px;opacity:0"; f.appendChild(hp);
     var t0=Date.now(), msg=f.querySelector(".form-msg");
-    f.addEventListener("submit",function(e){ e.preventDefault(); msg.hidden=false;
+    /* window'da capture: eski önizleme dinleyicileri hiç çalışmasın */
+    window.addEventListener("submit",function(e){ if(e.target!==f) return; e.preventDefault(); e.stopPropagation(); msg.hidden=false;
       var err=check(f); if(err){ msg.textContent=err; return; }
       var btn=f.querySelector("[type=submit]"); if(btn) btn.disabled=true; msg.textContent="Gönderiliyor…";
       var fd=new FormData(), q=new URLSearchParams(location.search), d=collect(f);
@@ -256,7 +256,7 @@
         if(j&&j.ok){ msg.textContent=okText; f.reset(); t0=Date.now(); if(window.dataLayer) window.dataLayer.push({event:"generate_lead",form:kind}); }
         else msg.textContent=FAIL;
         if(btn) btn.disabled=false; }).catch(function(){ msg.textContent=FAIL; if(btn) btn.disabled=false; });
-    });
+    },true);
   }
   function V(f,s){ var el=f.querySelector(s); return el?String(el.value||"").trim():""; }
   function S(f,s){ var el=f.querySelector(s); return el&&el.selectedIndex>=0?el.options[el.selectedIndex].text.trim():""; }

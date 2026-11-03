@@ -894,6 +894,8 @@ html.mopen .mbar{display:none!important}
 html.mopen header.site{background:#F2F6FA!important}
 
 /* canlı sürüm eklemeleri */
+.lgl-warn,.lgl-upd{margin:10px 0 0;font-size:12.5px;line-height:1.5;opacity:.72}.lgl-upd a{color:inherit}
+.vnote{margin-top:14px;font-size:12px;line-height:1.5;color:rgba(255,255,255,.62);max-width:520px}
 .lgl-nav{display:flex;flex-wrap:wrap;gap:6px 18px}.lgl-nav a{color:inherit;text-decoration:none;opacity:.85}.lgl-nav a:hover{opacity:1;text-decoration:underline}
 .appt .consent{margin:4px 0 10px;font-size:12.5px;line-height:1.5}.appt .consent a,.form-note a{color:inherit;text-decoration:underline}
 .cta.dk .appt .consent{color:inherit}

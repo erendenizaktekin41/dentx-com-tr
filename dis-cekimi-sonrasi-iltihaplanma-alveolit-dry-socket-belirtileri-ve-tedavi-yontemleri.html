@@ -22,7 +22,17 @@
 <style id="live-css">.lgl-nav{display:flex;flex-wrap:wrap;gap:6px 18px}.lgl-nav a{color:inherit;text-decoration:none;opacity:.85}.lgl-nav a:hover{opacity:1;text-decoration:underline}.lgl-warn,.lgl-upd{margin:10px 0 0;font-size:12.5px;line-height:1.5;opacity:.72}.lgl-upd a{color:inherit}.vnote{margin-top:14px;font-size:12px;line-height:1.5;color:rgba(255,255,255,.6);max-width:520px}.appt .consent{margin:4px 0 10px;font-size:12.5px;line-height:1.5}.appt .consent a,.form-note a{color:inherit;text-decoration:underline}</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "MedicalOrganization", "@id": "https://dentx.com.tr/#org", "name": "DentX Ağız ve Diş Sağlığı", "alternateName": "DentX", "url": "https://dentx.com.tr/", "logo": "https://dentx.com.tr/img/logo.png", "foundingDate": "2017", "email": "info@dentx.com.tr", "areaServed": "İstanbul", "medicalSpecialty": "Dentistry", "sameAs": ["https://www.instagram.com/dentxdis", "https://www.tiktok.com/@dentxdis", "https://www.youtube.com/@dentxtv"]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana sayfa", "item": "https://dentx.com.tr/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://dentx.com.tr/blog"}, {"@type": "ListItem", "position": 3, "name": "Diş Çekimi Sonrası İltihaplanma (Alveolit/Dry Socket): Belirtileri ve Tedavi Yöntemleri", "item": "https://dentx.com.tr/dis-cekimi-sonrasi-iltihaplanma-alveolit-dry-socket-belirtileri-ve-tedavi-yontemleri"}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Diş Çekimi Sonrası İltihaplanma (Alveolit/Dry Socket): Belirtileri ve Tedavi Yöntemleri", "description": "Diş çekimi sonrası iltihaplanma, daha yaygın olarak alveolit veya dry socket olarak adlandırılır. Bu durum, diş çekimi sonrası iyileşme sürecinde meydana…", "datePublished": "2026-03-06T13:36:53", "dateModified": "2026-08-14T11:55:44", "inLanguage": "tr-TR", "image": "https://dentx.com.tr/img/real/tr-dis-eti.jpg", "mainEntityOfPage": "https://dentx.com.tr/dis-cekimi-sonrasi-iltihaplanma-alveolit-dry-socket-belirtileri-ve-tedavi-yontemleri", "author": {"@type": "Organization", "name": "DentX Ağız ve Diş Sağlığı", "url": "https://dentx.com.tr/"}, "publisher": {"@id": "https://dentx.com.tr/#org"}}</script>
-<link rel="preload" href="/fonts/files/manrope-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<style id="ux-css">.hrs em{white-space:nowrap}
+.consent input[type=checkbox],#c-ok,#f-ok{width:18px;height:18px;flex:none;accent-color:#0F6D67;margin-top:1px}
+@media (max-width:700px){
+.hrs em{font-size:12.5px}
+.quote{font-size:19px;line-height:1.38;padding-top:36px}
+main a.link,main a.tel,main a.dir{display:inline-flex;align-items:center;min-height:40px}
+.bl-toc{display:none}
+.seg{scrollbar-width:none;-webkit-mask-image:linear-gradient(90deg,#000 82%,transparent);mask-image:linear-gradient(90deg,#000 82%,transparent);padding-right:28px}
+.seg::-webkit-scrollbar{display:none}
+}
+</style><link rel="preload" href="/fonts/files/manrope-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/fonts/fonts.css">
 </head>
 <body>
@@ -236,7 +246,7 @@
   var mods=[].slice.call(document.querySelectorAll("main>section.wt,main>section.dk:not(.flowsec),main>section.statsec,footer"));
   var imgs=[].slice.call(document.querySelectorAll(".mosaic img,.phero figure img,.gal img,.dig .ph img,.card .ph img,.clc .ph img"));
   imgs.forEach(function(im){ im.style.scale="1.12"; });
-  var F=[.03,.07,.045,.085]; var cards=[].slice.call(document.querySelectorAll("main>section:not(.hero):not(.flowsec) :is(.card,.feat,.pillar,.citem,.mosaic figure,.clc article,.dig figure,.tmini a,.steps-t li,.icl article,.cl4>div,.gal figure,.ctop>*)")).map(function(e){ var p=e.parentElement, k=[].indexOf.call(p.children,e); return {e:e,f:F[k%4]}; });
+  var cards=[];
   var tick=false;
   function run(){ tick=false; var vh=innerHeight, vc=vh/2, k=innerWidth<700?.5:1;
     mods.forEach(function(m){ var r=m.getBoundingClientRect(); if(r.bottom<-200||r.top>vh+200) return; var c=(r.top+r.bottom)/2; var y=Math.max(-26,Math.min(26,(c-vc)*-.045*k)); m.style.translate="0 "+y.toFixed(1)+"px"; });

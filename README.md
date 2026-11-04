@@ -5,7 +5,7 @@ Build adımı yok: Vercel'de Framework Preset **Other**.
 
 Ortam değişkenleri (Production):
 - `SMTP_HOST` = mail.kurumsaleposta.com · `SMTP_PORT` = 465
-- `SMTP_USER` = info@dentx.com.tr · `MAIL_FROM` = info@dentx.com.tr · `LEAD_TO` = info@dentx.com.tr
+- `SMTP_USER` = noreply@dentx.com.tr · `MAIL_FROM` = noreply@dentx.com.tr · `LEAD_TO` = randevu@dentx.com.tr
 - `SMTP_PASS` = info@dentx.com.tr kutusunun şifresi (Secret)
 - İsteğe bağlı: Upstash Redis bağlanırsa formlarda IP başına saatlik sınır devreye girer.
 

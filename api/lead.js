@@ -1,9 +1,9 @@
-// dentx.com.tr formları (randevu + iletişim) → e-posta (varsayılan: info@dentx.com.tr)
+// dentx.com.tr formları (randevu + iletişim) → e-posta (varsayılan: randevu@dentx.com.tr)
 // Gönderim: RESEND_API_KEY varsa Resend, yoksa SMTP (SMTP_HOST / SMTP_PORT / SMTP_USER / SMTP_PASS)
 import nodemailer from "nodemailer";
 import { json, clientIp, rateLimit } from "./_lib/redis.js";
 
-const TO = (process.env.LEAD_TO || "info@dentx.com.tr").split(",").map((s) => s.trim()).filter(Boolean);
+const TO = (process.env.LEAD_TO || "randevu@dentx.com.tr").split(",").map((s) => s.trim()).filter(Boolean);
 const FROM = process.env.MAIL_FROM || process.env.SMTP_USER || "no-reply@dentx.com.tr";
 
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));

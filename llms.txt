@@ -1,6 +1,6 @@
 # DentX Ağız ve Diş Sağlığı
 
-> DentX, 2017’den bu yana İstanbul’da 4 klinikte (Küçükköy, 5. Levent, Korupark, Başakşehir) dijital diş hekimliği hizmeti veren bir ağız ve diş sağlığı poliklinikleri grubudur. 20+ diş hekimi ve uzman görev yapar. Tüm klinikler hafta içi 10:00–21:00, cumartesi ve pazar 10:00–19:00 arası açıktır.
+> DentX, 2017’den bu yana İstanbul’da 4 klinikte (Küçükköy, 5. Levent, Korupark, Başakşehir) dijital diş hekimliği hizmeti veren bir ağız ve diş sağlığı poliklinikleri grubudur. 20+ diş hekimi ve uzman görev yapar. Çalışma saatleri kliniğe göre değişir. Küçükköy ve 5. Levent: hafta içi 10:00–21:00, cumartesi–pazar 10:00–19:00. Korupark: pazartesi–cumartesi 10:00–20:00, pazar kapalı. Başakşehir: hafta içi 10:00–21:00, cumartesi 10:00–19:00, pazar kapalı.
 
 ## Temel bilgiler
 - Kuruluş: 2017

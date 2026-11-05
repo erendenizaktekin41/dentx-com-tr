@@ -1,257 +1,257 @@
 {
- "$schema": "https://openapi.vercel.sh/vercel.json",
- "cleanUrls": true,
- "trailingSlash": false,
- "redirects": [
-  {
-   "source": "/dr-dt-melis-yazir-kavan",
-   "destination": "/klinikler#melis-yazir-kavan",
-   "permanent": true
-  },
-  {
-   "source": "/dt-tunahan-demir",
-   "destination": "/klinikler#tunahan-demir",
-   "permanent": true
-  },
-  {
-   "source": "/dt-mehmet-selcuk-cetkin",
-   "destination": "/klinikler#mehmet-selcuk-cetkin",
-   "permanent": true
-  },
-  {
-   "source": "/dt-furkan-said-ipek",
-   "destination": "/klinikler#hekimler",
-   "permanent": true
-  },
-  {
-   "source": "/dr-dt-gul-tas",
-   "destination": "/klinikler#gul-tas",
-   "permanent": true
-  },
-  {
-   "source": "/uzm-dt-mihriban-yildiz-bogahan",
-   "destination": "/klinikler#mihriban-yildiz-bogahan",
-   "permanent": true
-  },
-  {
-   "source": "/uzm-dt-ilyas-karben",
-   "destination": "/klinikler#ilyas-karben",
-   "permanent": true
-  },
-  {
-   "source": "/dr-dt-ipek-hazal-cerciler",
-   "destination": "/klinikler#ipek-hazal-cerciler",
-   "permanent": true
-  },
-  {
-   "source": "/dt-caner-cetin",
-   "destination": "/klinikler#caner-cetin",
-   "permanent": true
-  },
-  {
-   "source": "/dt-furkan-kocak",
-   "destination": "/klinikler#furkan-kocak",
-   "permanent": true
-  },
-  {
-   "source": "/dt-cankut-demir",
-   "destination": "/klinikler#cankut-demir",
-   "permanent": true
-  },
-  {
-   "source": "/dr-dt-guniz-kasarcioglu",
-   "destination": "/klinikler#hekimler",
-   "permanent": true
-  },
-  {
-   "source": "/dt-atakan-ozturk",
-   "destination": "/klinikler#atakan-ozturk",
-   "permanent": true
-  },
-  {
-   "source": "/dt-guray-ozturk",
-   "destination": "/klinikler#guray-ozturk",
-   "permanent": true
-  },
-  {
-   "source": "/dt-ugurcan-azizoglu",
-   "destination": "/klinikler#ugurcan-azizoglu",
-   "permanent": true
-  },
-  {
-   "source": "/uzm-dt-ozge-korkmaz-aktas",
-   "destination": "/klinikler#ozge-korkmaz-aktas",
-   "permanent": true
-  },
-  {
-   "source": "/dt-hudayi-bogahan",
-   "destination": "/klinikler#hudayi-bogahan",
-   "permanent": true
-  },
-  {
-   "source": "/dt-mesut-altunay",
-   "destination": "/klinikler#hekimler",
-   "permanent": true
-  },
-  {
-   "source": "/uzm-dt-alparslan-eren-karasu",
-   "destination": "/klinikler#hekimler",
-   "permanent": true
-  },
-  {
-   "source": "/dr-dt-ozgun-gunay",
-   "destination": "/klinikler#ozgun-gunay",
-   "permanent": true
-  },
-  {
-   "source": "/dt-kubra-akyildiz",
-   "destination": "/klinikler#kubra-akyildiz",
-   "permanent": true
-  },
-  {
-   "source": "/dr-dt-hazal-cerciler",
-   "destination": "/klinikler#ipek-hazal-cerciler",
-   "permanent": true
-  },
-  {
-   "source": "/uzm-dt-ayse-asli-aydogan",
-   "destination": "/klinikler#ayse-asli-aydogan",
-   "permanent": true
-  },
-  {
-   "source": "/home",
-   "destination": "/",
-   "permanent": true
-  },
-  {
-   "source": "/blog-grid",
-   "destination": "/blog",
-   "permanent": true
-  },
-  {
-   "source": "/our-doctors",
-   "destination": "/klinikler#hekimler",
-   "permanent": true
-  },
-  {
-   "source": "/dentist",
-   "destination": "/klinikler#hekimler",
-   "permanent": true
-  },
-  {
-   "source": "/departments",
-   "destination": "/tedaviler",
-   "permanent": true
-  },
-  {
-   "source": "/dent-x-kucukkoy-dis-poliklinigi",
-   "destination": "/klinikler#kucukkoy",
-   "permanent": true
-  },
-  {
-   "source": "/dent-x-5-levent-dis-poliklinigi",
-   "destination": "/klinikler#levent",
-   "permanent": true
-  },
-  {
-   "source": "/dent-x-korupark-dis-poliklinigi",
-   "destination": "/klinikler#korupark",
-   "permanent": true
-  },
-  {
-   "source": "/dent-x-basaksehir-dis-poliklinigi",
-   "destination": "/klinikler#basaksehir",
-   "permanent": true
-  },
-  {
-   "source": "/404-page",
-   "destination": "/",
-   "permanent": true
-  },
-  {
-   "source": "/metform-form/:path*",
-   "destination": "/",
-   "permanent": true
-  },
-  {
-   "source": "/layouts/:path*",
-   "destination": "/",
-   "permanent": true
-  },
-  {
-   "source": "/author/:path*",
-   "destination": "/",
-   "permanent": true
-  },
-  {
-   "source": "/category/:path*",
-   "destination": "/blog",
-   "permanent": true
-  },
-  {
-   "source": "/feed",
-   "destination": "/",
-   "permanent": true
-  },
-  {
-   "source": "/wp-sitemap.xml",
-   "destination": "/sitemap.xml",
-   "permanent": true
-  },
-  {
-   "source": "/sitemap_index.xml",
-   "destination": "/sitemap.xml",
-   "permanent": true
-  },
-  {
-   "source": "/index",
-   "destination": "/",
-   "permanent": true
-  }
- ],
- "headers": [
-  {
-   "source": "/(.*)",
-   "headers": [
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
     {
-     "key": "X-Content-Type-Options",
-     "value": "nosniff"
+      "source": "/dr-dt-melis-yazir-kavan",
+      "destination": "/klinikler#melis-yazir-kavan",
+      "permanent": true
     },
     {
-     "key": "Referrer-Policy",
-     "value": "strict-origin-when-cross-origin"
+      "source": "/dt-tunahan-demir",
+      "destination": "/klinikler#tunahan-demir",
+      "permanent": true
     },
     {
-     "key": "X-Frame-Options",
-     "value": "SAMEORIGIN"
+      "source": "/dt-mehmet-selcuk-cetkin",
+      "destination": "/klinikler#mehmet-selcuk-cetkin",
+      "permanent": true
     },
     {
-     "key": "Permissions-Policy",
-     "value": "camera=(), microphone=(), geolocation=(), interest-cohort=()"
+      "source": "/dt-furkan-said-ipek",
+      "destination": "/klinikler#hekimler",
+      "permanent": true
     },
     {
-     "key": "Strict-Transport-Security",
-     "value": "max-age=63072000; includeSubDomains; preload"
+      "source": "/dr-dt-gul-tas",
+      "destination": "/klinikler#gul-tas",
+      "permanent": true
+    },
+    {
+      "source": "/uzm-dt-mihriban-yildiz-bogahan",
+      "destination": "/klinikler#mihriban-yildiz-bogahan",
+      "permanent": true
+    },
+    {
+      "source": "/uzm-dt-ilyas-karben",
+      "destination": "/klinikler#ilyas-karben",
+      "permanent": true
+    },
+    {
+      "source": "/dr-dt-ipek-hazal-cerciler",
+      "destination": "/klinikler#ipek-hazal-cerciler",
+      "permanent": true
+    },
+    {
+      "source": "/dt-caner-cetin",
+      "destination": "/klinikler#caner-cetin",
+      "permanent": true
+    },
+    {
+      "source": "/dt-furkan-kocak",
+      "destination": "/klinikler#furkan-kocak",
+      "permanent": true
+    },
+    {
+      "source": "/dt-cankut-demir",
+      "destination": "/klinikler#cankut-demir",
+      "permanent": true
+    },
+    {
+      "source": "/dr-dt-guniz-kasarcioglu",
+      "destination": "/klinikler#hekimler",
+      "permanent": true
+    },
+    {
+      "source": "/dt-atakan-ozturk",
+      "destination": "/klinikler#atakan-ozturk",
+      "permanent": true
+    },
+    {
+      "source": "/dt-guray-ozturk",
+      "destination": "/klinikler#guray-ozturk",
+      "permanent": true
+    },
+    {
+      "source": "/dt-ugurcan-azizoglu",
+      "destination": "/klinikler#ugurcan-azizoglu",
+      "permanent": true
+    },
+    {
+      "source": "/uzm-dt-ozge-korkmaz-aktas",
+      "destination": "/klinikler#ozge-korkmaz-aktas",
+      "permanent": true
+    },
+    {
+      "source": "/dt-hudayi-bogahan",
+      "destination": "/klinikler#hudayi-bogahan",
+      "permanent": true
+    },
+    {
+      "source": "/dt-mesut-altunay",
+      "destination": "/klinikler#hekimler",
+      "permanent": true
+    },
+    {
+      "source": "/uzm-dt-alparslan-eren-karasu",
+      "destination": "/klinikler#hekimler",
+      "permanent": true
+    },
+    {
+      "source": "/dr-dt-ozgun-gunay",
+      "destination": "/klinikler#ozgun-gunay",
+      "permanent": true
+    },
+    {
+      "source": "/dt-kubra-akyildiz",
+      "destination": "/klinikler#kubra-akyildiz",
+      "permanent": true
+    },
+    {
+      "source": "/dr-dt-hazal-cerciler",
+      "destination": "/klinikler#ipek-hazal-cerciler",
+      "permanent": true
+    },
+    {
+      "source": "/uzm-dt-ayse-asli-aydogan",
+      "destination": "/klinikler#ayse-asli-aydogan",
+      "permanent": true
+    },
+    {
+      "source": "/home",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blog-grid",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/our-doctors",
+      "destination": "/klinikler#hekimler",
+      "permanent": true
+    },
+    {
+      "source": "/dentist",
+      "destination": "/klinikler#hekimler",
+      "permanent": true
+    },
+    {
+      "source": "/departments",
+      "destination": "/tedaviler",
+      "permanent": true
+    },
+    {
+      "source": "/dent-x-kucukkoy-dis-poliklinigi",
+      "destination": "/klinikler#kucukkoy",
+      "permanent": true
+    },
+    {
+      "source": "/dent-x-5-levent-dis-poliklinigi",
+      "destination": "/klinikler#levent",
+      "permanent": true
+    },
+    {
+      "source": "/dent-x-korupark-dis-poliklinigi",
+      "destination": "/klinikler#korupark",
+      "permanent": true
+    },
+    {
+      "source": "/dent-x-basaksehir-dis-poliklinigi",
+      "destination": "/klinikler#basaksehir",
+      "permanent": true
+    },
+    {
+      "source": "/404-page",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/metform-form/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/layouts/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/author/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/category/:path*",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/feed",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-sitemap.xml",
+      "destination": "/sitemap.xml",
+      "permanent": true
+    },
+    {
+      "source": "/sitemap_index.xml",
+      "destination": "/sitemap.xml",
+      "permanent": true
+    },
+    {
+      "source": "/index",
+      "destination": "/",
+      "permanent": true
     }
-   ]
-  },
-  {
-   "source": "/(img|fonts|vendor|3d)/(.*)",
-   "headers": [
+  ],
+  "headers": [
     {
-     "key": "Cache-Control",
-     "value": "public, max-age=604800, stale-while-revalidate=2592000"
-    }
-   ]
-  },
-  {
-   "source": "/(css|js)/(.*)",
-   "headers": [
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=(), interest-cohort=()"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=63072000; includeSubDomains; preload"
+        }
+      ]
+    },
     {
-     "key": "Cache-Control",
-     "value": "public, max-age=3600, stale-while-revalidate=86400"
+      "source": "/(img|fonts|vendor|3d)/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000, stale-while-revalidate=31536000"
+        }
+      ]
+    },
+    {
+      "source": "/(css|js)/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, stale-while-revalidate=86400"
+        }
+      ]
     }
-   ]
-  }
- ]
+  ]
 }

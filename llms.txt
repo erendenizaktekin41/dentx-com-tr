@@ -18,6 +18,7 @@
 
 ## Sayfalar
 - [Ana sayfa](https://dentx.com.tr/): Dijital tedavi süreci, tedaviler, hekimler, klinik haritası, randevu
+- [İstanbul’da diş tedavisi: sık sorulan sorular](https://dentx.com.tr/istanbulda-dis-tedavisi): klinik adresleri, çalışma saatleri, randevu, tedaviler, hekimler
 - [Tedaviler](https://dentx.com.tr/tedaviler/): Tüm tedavilerin listesi
 - [Dijital Gülüş Tasarımı](https://dentx.com.tr/dijital-gulus-tasarimi/)
 - [Diş İmplantı](https://dentx.com.tr/dis-implanti/)
@@ -33,3 +34,47 @@
 - [Hakkımızda](https://dentx.com.tr/hakkimizda/)
 - [Klinikler ve Hekimler](https://dentx.com.tr/klinikler/): Adresler, telefonlar, çalışma saatleri, hekim özgeçmişleri
 - [İletişim](https://dentx.com.tr/iletisim/): E-posta, klinik adresleri, sabit ve cep telefonları, iletişim formu
+
+## Sık sorulan sorular
+
+### İstanbul’da DentX klinikleri nerede?
+DentX’in İstanbul’da 4 kliniği vardır: DentX Küçükköy (Mevlana Mah., Turgut Reis Cad. No: 2-6/C, Gaziosmanpaşa), DentX 5. Levent (Güzeltepe Mah., Fatih Sultan Mehmet Blv. No: 4/5AA, Kiptaş Çarşı, Eyüpsultan), DentX Korupark (15 Temmuz Şehitler Cd. No: 10 D: 1Y, Eyüpsultan) ve DentX Başakşehir (Başakşehir Mah., Taşoluk Yolu Sok., Vadişehir Konutları A4 Blok No: 3/N, Başakşehir). Harita ve yol tarifleri Klinikler & Hekimler sayfasındadır.
+
+### Kliniklerin çalışma saatleri nedir?
+Çalışma saatleri kliniğe göre değişir. Küçükköy ve 5. Levent: hafta içi 10:00–21:00, cumartesi–pazar 10:00–19:00. Korupark: pazartesi–cumartesi 10:00–20:00, pazar kapalı. Başakşehir: hafta içi 10:00–21:00, cumartesi 10:00–19:00, pazar kapalı.
+
+### Pazar günü açık olan DentX kliniği var mı?
+Evet. DentX Küçükköy ve DentX 5. Levent pazar günleri 10:00–19:00 saatleri arasında açıktır. Korupark ve Başakşehir klinikleri pazar günü kapalıdır.
+
+### Nasıl randevu alabilirim?
+Bu sayfadaki randevu formunu doldurabilir ya da size en yakın kliniği arayabilirsiniz: Küçükköy 0 555 000 59 24, 5. Levent 0 536 400 59 24, Korupark 0 552 138 30 60, Başakşehir 0 532 544 99 67.
+
+### Hangi kliniğe gitmeliyim?
+Size en yakın ya da ulaşımı en kolay kliniği seçebilirsiniz. Hangi hekimin hangi klinikte görev yaptığını Klinikler & Hekimler sayfasında görebilir, randevu sırasında tedavinize uygun hekim ve kliniği birlikte belirleyebilirsiniz.
+
+### DentX’te hangi tedaviler uygulanıyor?
+İmplant, dijital gülüş tasarımı, estetik diş tedavileri, ortodonti (şeffaf plak ve braket), kanal tedavisi, çocuk diş hekimliği, ağız, diş ve çene cerrahisi, diş beyazlatma, diş eti tedavileri, protez ve periyodik bakım.
+
+### Dijital diş hekimliği ne demek?
+Ölçü kaşığı yerine ağız içi tarayıcıyla 3D model alınması, tedavinin bu model üzerinde planlanması ve gülüş tasarımının tedaviden önce ekranda gösterilmesidir. Dijital ölçü, geleneksel ölçü kaşıklarının yarattığı baskıyı ve bulantı hissini büyük ölçüde ortadan kaldırır.
+
+### İmplant tedavisi ne kadar sürer?
+İmplantın çene kemiğiyle bütünleşmesi kemik yapısına ve uygulama bölgesine göre değişir. Genellikle 2–4 aylık iyileşme sürecinin ardından implant üzerine kalıcı protez aşamasına geçilir. Kemik miktarı yetersizse önce kemik grefti uygulaması planlanabilir.
+
+### Kanal tedavisi kaç seansta tamamlanır?
+Genellikle 1–2 randevu yeterlidir. Enfeksiyonun durumu ve kanal sayısı seans planını etkiler; hekiminiz muayene ve röntgen değerlendirmesinden sonra size uygun planı belirler.
+
+### Tedavi ücretleri nasıl belirleniyor?
+Tedavi ücreti, muayene sonrasında hekiminizin belirlediği tedavi planına, uygulanacak işlemlere ve kullanılacak materyallere göre değişir. Bilgi almak için kliniğinizle iletişime geçebilirsiniz.
+
+### DentX’te kaç diş hekimi var?
+4 kliniğimizde periodontoloji ve endodonti uzmanları dahil 20’den fazla diş hekimi görev yapıyor. Hekimlerimizin eğitim ve özgeçmişleri Klinikler & Hekimler sayfasında yer alır.
+
+### Çocuğumu diş hekimine ne zaman götürmeliyim?
+Ağız hijyeni rutinleri ilk süt dişinin görülmesiyle başlar; düzenli kontroller süt dişlerini ve kalıcı dişlerin sağlıklı gelişimini korur. DentX kliniklerinde çocuk diş hekimliği hizmeti verilir.
+
+### Ne sıklıkla diş hekimi kontrolüne gitmeliyim?
+Olası sorunları erken fark etmek için 6 ayda bir kontrol ve profesyonel temizlik önerilir. DentX Bakım seansı yaklaşık 30–45 dakika sürer.
+
+### Şiddetli diş ağrım var, ne yapmalıyım?
+Size en yakın DentX kliniğini arayarak muayene için randevu alın. Yüzde şişlik, ateş ya da yutma güçlüğü gibi belirtiler varsa beklemeden bir diş hekimine başvurmanız gerekir.

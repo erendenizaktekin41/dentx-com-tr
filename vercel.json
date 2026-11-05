@@ -145,22 +145,22 @@
     },
     {
       "source": "/dent-x-kucukkoy-dis-poliklinigi",
-      "destination": "/klinikler#kucukkoy",
+      "destination": "/dentx-kucukkoy",
       "permanent": true
     },
     {
       "source": "/dent-x-5-levent-dis-poliklinigi",
-      "destination": "/klinikler#levent",
+      "destination": "/dentx-5-levent",
       "permanent": true
     },
     {
       "source": "/dent-x-korupark-dis-poliklinigi",
-      "destination": "/klinikler#korupark",
+      "destination": "/dentx-korupark",
       "permanent": true
     },
     {
       "source": "/dent-x-basaksehir-dis-poliklinigi",
-      "destination": "/klinikler#basaksehir",
+      "destination": "/dentx-basaksehir",
       "permanent": true
     },
     {

@@ -7,7 +7,7 @@
   },
   "entries": [
     {
-      "identifier": "urn:ai:dentx.com.tr:knowledge:llms-txt",
+      "identifier": "urn:air:dentx.com.tr:knowledge:llms-txt",
       "displayName": "DentX Ağız ve Diş Sağlığı — site guide for AI (llms.txt)",
       "mediaType": "text/markdown",
       "type": "text/markdown",

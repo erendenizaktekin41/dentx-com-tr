@@ -34,7 +34,7 @@
     if (o) { e.preventDefault(); show(); return; }
     var a = e.target.closest && e.target.closest("a[href]"); if (!a) return;
     var h = a.getAttribute("href") || "";
-    if (/wa\.me|whatsapp\.com/.test(h)) {
+    if (/wa\.me|wa\.link|whatsapp\.com/.test(h)) {
       var city = a.getAttribute("data-city");
       ev(city ? "book_slot_click" : "whatsapp_click", city ? { city: city } : { link_location: a.closest("footer") ? "footer" : a.closest("header,.mobile-menu") ? "menu" : "page" });
     } else if (/^tel:/.test(h)) ev("phone_click", { phone: h.slice(4) });

@@ -20,15 +20,6 @@
         "DentX'te hangi tedaviler uygulanıyor?"
       ],
       "version": "2026-11-10"
-    },
-    {
-      "identifier": "urn:air:dentx.com.tr:knowledge:llms-txt",
-      "displayName": "DentX Ağız ve Diş Sağlığı — site guide (llms.txt)",
-      "mediaType": "text/plain",
-      "type": "text/plain",
-      "url": "https://dentx.com.tr/llms.txt",
-      "description": "DentX: İstanbul'da 4 ağız ve diş sağlığı polikliniği (Küçükköy, 5. Levent, Korupark, Başakşehir) — adresler, çalışma saatleri, hekimler, tedaviler ve sık sorulan sorular.",
-      "version": "2026-11-10"
     }
   ]
 }

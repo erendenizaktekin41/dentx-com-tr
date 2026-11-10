@@ -7,18 +7,27 @@
   },
   "entries": [
     {
-      "identifier": "urn:air:dentx.com.tr:knowledge:llms-txt",
-      "displayName": "DentX Ağız ve Diş Sağlığı — site guide for AI (llms.txt)",
-      "mediaType": "text/markdown",
-      "type": "text/markdown",
-      "url": "https://dentx.com.tr/llms.txt",
-      "description": "DentX: İstanbul'da 4 ağız ve diş sağlığı polikliniği (Küçükköy, 5. Levent, Korupark, Başakşehir) — adresler, çalışma saatleri, hekimler, tedaviler ve sık sorulan sorular.",
+      "identifier": "urn:air:dentx.com.tr:skills:dentx-istanbul-klinik-bilgisi",
+      "displayName": "DentX klinik bilgisi (Agent Skill)",
+      "mediaType": "text/markdown; profile=\"urn:air:agent-skills\"",
+      "type": "text/markdown; profile=\"urn:air:agent-skills\"",
+      "url": "https://dentx.com.tr/.well-known/skills/dentx-istanbul-klinik-bilgisi/SKILL.md",
+      "description": "AI ajanları için: DentX'in İstanbul'daki 4 kliniği, çalışma saatleri, telefonları, randevu yolu ve sınırlar (fiyat ve teşhis yok).",
       "representativeQueries": [
         "İstanbul'da DentX klinikleri nerede?",
         "DentX Korupark çalışma saatleri nedir?",
         "Pazar günü açık diş kliniği hangisi?",
         "DentX'te hangi tedaviler uygulanıyor?"
       ],
+      "version": "2026-11-10"
+    },
+    {
+      "identifier": "urn:air:dentx.com.tr:knowledge:llms-txt",
+      "displayName": "DentX Ağız ve Diş Sağlığı — site guide (llms.txt)",
+      "mediaType": "text/plain",
+      "type": "text/plain",
+      "url": "https://dentx.com.tr/llms.txt",
+      "description": "DentX: İstanbul'da 4 ağız ve diş sağlığı polikliniği (Küçükköy, 5. Levent, Korupark, Başakşehir) — adresler, çalışma saatleri, hekimler, tedaviler ve sık sorulan sorular.",
       "version": "2026-11-10"
     }
   ]

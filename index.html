@@ -94,7 +94,7 @@
             <button class="phase" data-p="1" aria-current="false"><small>02</small>İmplant ve protez<span class="bar"><i></i></span></button>
             <button class="phase" data-p="2" aria-current="false"><small>03</small>Gülüş tasarımı<span class="bar"><i></i></span></button>
           </div>
-          <p class="fallback" hidden><img src="/img/3d-hero.webp" alt="" loading="lazy" decoding="async" width="1100" height="1000" srcset="/img/3d-hero-320w.webp 320w, /img/3d-hero-640w.webp 640w, /img/3d-hero.webp 1100w" sizes="(max-width: 760px) 354px, 702px"><span hidden>3D görünüm bu cihazda açılamadı.</span></p>
+          <p class="fallback" hidden><img src="/img/3d-hero.webp" alt="Gerçek bir DentX vakasının dijital 3D diş modeli" loading="lazy" decoding="async" width="1100" height="1000" srcset="/img/3d-hero-320w.webp 320w, /img/3d-hero-640w.webp 640w, /img/3d-hero.webp 1100w" sizes="(max-width: 760px) 354px, 702px"><span hidden>3D görünüm bu cihazda açılamadı.</span></p>
         </div>
         <p class="stage-note">Gerçek bir DentX vakası · exocad tasarımı</p>
       </div>
@@ -145,7 +145,7 @@
             <svg class="ovl" id="flowovl" aria-hidden="true"></svg>
             <div class="vhud" aria-hidden="true"><span id="vtag">01 · Dijital tarama</span><span id="vpct">Kapsama %0</span></div>
             <div class="vprog" aria-hidden="true"><i><b></b></i><i><b></b></i><i><b></b></i></div>
-            <p class="fallback" hidden><img src="/img/3d-flow.webp" alt="" loading="lazy" decoding="async" width="1100" height="1000" srcset="/img/3d-flow-320w.webp 320w, /img/3d-flow-640w.webp 640w, /img/3d-flow.webp 1100w" sizes="(max-width: 760px) 350px, 699px"><span hidden>3D görünüm bu cihazda açılamadı.</span></p>
+            <p class="fallback" hidden><img src="/img/3d-flow.webp" alt="Dijital tedavi akışında 3D diş modeli" loading="lazy" decoding="async" width="1100" height="1000" srcset="/img/3d-flow-320w.webp 320w, /img/3d-flow-640w.webp 640w, /img/3d-flow.webp 1100w" sizes="(max-width: 760px) 350px, 699px"><span hidden>3D görünüm bu cihazda açılamadı.</span></p>
           </div>
           <div class="fcap" id="fcap" aria-live="polite"></div>
         </div>
@@ -404,7 +404,7 @@ document.documentElement.setAttribute("lang","tr");
   svg.innerHTML=o.join("");
 
   var list=document.getElementById("clist"), card=document.getElementById("mapcard");
-  list.innerHTML=CL.map(function(c,i){ return '<div class="citem" role="button" tabindex="0" data-i="'+i+'" aria-pressed="false"><img class="th" src="/img/real/'+c.img+'-320w.webp" alt="" loading="lazy"><b>DentX '+c.n+'</b><address>'+c.adr+'</address><a class="tel" href="tel:+90'+c.raw.slice(1)+'">'+c.tel+'</a></div>'; }).join("");
+  list.innerHTML=CL.map(function(c,i){ return '<div class="citem" role="button" tabindex="0" data-i="'+i+'" aria-pressed="false"><img class="th" src="/img/real/'+c.img+'-320w.webp" alt="'+c.n+'" loading="lazy"><b>DentX '+c.n+'</b><address>'+c.adr+'</address><a class="tel" href="tel:+90'+c.raw.slice(1)+'">'+c.tel+'</a></div>'; }).join("");
   var ALL=[140,40,760,562], vb=ALL.slice(), anim=null;
   function setVB(v){ vb=v; svg.setAttribute("viewBox",v.map(function(n){return n.toFixed(1);}).join(" "));
     var cw=svg.clientWidth||600, ch=svg.clientHeight||440, u=1/Math.max(cw/v[2],ch/v[3]); svg.style.setProperty("--u",u.toFixed(4));
@@ -785,7 +785,7 @@ document.documentElement.setAttribute("lang","tr");
     var rds=[].slice.call(document.querySelectorAll(".rd")), ris=[].slice.call(document.querySelectorAll(".ri")), rps=ris.map(function(r){ return r.querySelector(".rp b"); });
     ris.forEach(function(r,i){ r.querySelector(".rh").addEventListener("click",function(){ var R=fwrapEl.getBoundingClientRect(), top=parseFloat(getComputedStyle(stickyEl).top)||90, span=R.height-stickyEl.offsetHeight; window.scrollTo({top:scrollY+R.top-top+span*((i+.12)/3),behavior:"smooth"}); }); });
     function setCap(i){ if(!fcap) return; var c=fsteps[i]&&fsteps[i].querySelector(".fcard"); if(!c) return; var im=c.querySelector("img"), h=c.querySelector("h3"), p=c.querySelector("p");
-      fcap.innerHTML='<img src="'+(im?im.getAttribute("src"):"")+'" alt=""><div class="in"><span class="n">0'+(i+1)+' / 03</span><h3>'+h.textContent+'</h3><p>'+p.textContent+'</p></div>'; }
+      fcap.innerHTML='<img src="'+(im?im.getAttribute("src"):"")+'" alt="'+h.textContent+'"><div class="in"><span class="n">0'+(i+1)+' / 03</span><h3>'+h.textContent+'</h3><p>'+p.textContent+'</p></div>'; }
     setCap(0);
     [].forEach.call(document.querySelectorAll(".flowsec img"),function(im){ var x=new Image(); x.src=im.currentSrc||im.src; if(x.decode) x.decode().catch(function(){}); });
     var lastFp=-1,lastFW=0,lastFH=0;

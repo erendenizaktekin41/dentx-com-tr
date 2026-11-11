@@ -3,15 +3,14 @@
   var GTM = "GTM-K8886ZM8", KEY = "dx-consent", YEAR = 31536e6;
   var T = window.__CK || {};
   var lang = (document.documentElement.lang || "en").slice(0, 2);
-  function get() { try { var c = JSON.parse(localStorage.getItem(KEY) || "null"); return c && Date.now() - c.t < YEAR ? c : null; } catch (e) { return null; } }
-  function set(a) { try { localStorage.setItem(KEY, JSON.stringify({ a: a, t: Date.now(), v: 1 })); } catch (e) {} }
-  function load() {
-    if (window.__dxLoaded) return; window.__dxLoaded = 1; window.__dxOK = 1;
-    gtag("consent", "update", { analytics_storage: "granted" });
-    var s = document.createElement("script"); s.async = true; s.src = T.src || ("https://www.googletagmanager.com/gtm.js?id=" + GTM); document.head.appendChild(s);
-    gtag("js", new Date()); if (T.ga) gtag("config", T.ga);
+  function get() { try { var c = JSON.parse(localStorage.getItem(KEY) || "null"); return c && Date.now() - c.t < YEAR && (!T.px || c.v >= 2) ? c : null; } catch (e) { return null; } }
+  function set(a) { try { localStorage.setItem(KEY, JSON.stringify({ a: a, t: Date.now(), v: T.px ? 2 : 1 })); } catch (e) {} }
+  function load() { if (window.__dxBoot) window.__dxBoot(); }
+  var FB = { generate_lead: "Lead", whatsapp_click: "Contact", phone_click: "Contact", book_slot_click: "Schedule" };
+  function ev(name, p) {
+    if (!window.__dxOK) return; p = p || {}; p.page_lang = lang; p.page_path = location.pathname; gtag("event", name, p);
+    if (window.fbq && FB[name]) { try { fbq("track", FB[name], p.city ? { content_name: p.city } : {}); } catch (e) {} }
   }
-  function ev(name, p) { if (!window.__dxOK) return; p = p || {}; p.page_lang = lang; p.page_path = location.pathname; gtag("event", name, p); }
   window.dxTrack = ev;
 
   // banner
@@ -26,7 +25,7 @@
     box.querySelector(".ck-a").onclick = function () { set(1); box.hidden = true; load(); };
     box.querySelector(".ck-r").onclick = function () {
       var was = get(); set(0); box.hidden = true;
-      if (was && was.a === 1) { gtag("consent", "update", { analytics_storage: "denied" }); window.__dxOK = 0; }
+      if (was && was.a === 1) { gtag("consent", "update", { analytics_storage: "denied" }); if (window.fbq) { try { fbq("consent", "revoke"); } catch (e) {} } window.__dxOK = 0; }
     };
   }
   document.addEventListener("click", function (e) {
